@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  display: flex;
+  background-color: rgba(25, 7, 224, 0.611);
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  cursor: pointer;
+}
+
+#photo {
+  margin-left: 20px;
+  width: 20%;
+}
+
+#logo {
+  width: 20%;
+}
+
+#navbar ul {
+  margin-left: 100px;
+  display: flex;
+  width: 40%;
+  align-items: center;
+}
+
+#navbar ul li {
+  list-style: none;
+  padding: 30px 30px;
+}
+
+#navbar ul li a {
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.6rem;
+  display: block;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#navbar li a:hover {
+  color: rgb(152, 0, 152);
+  font-size: 1.8rem;
+}
+
+.rightNav {
+  width: 24%;
+  text-align: right;
+}
+
+#search {
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 9px;
+  font-family: "Oswald", sans-serif;
+  width: 200px;
+}
+
+#searchbtn {
+  width: 5rem;
+  height: 2rem;
+  cursor: pointer;
+  border-radius: 40%;
+  font-family: "Oswald", sans-serif;
+  margin-left: 20px;
+  font-size: 16px;
+  background-color: white;
+}
+
+#searchbtn:hover {
+  font-size: 18px;
+}
+
+.navbar input {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 0 2px;
+}
+
+/* .home {
+  display: flex;
+  flex-direction: row;
+} */
+.container {
+  display: flex;
+}
+.main {
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.row {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.body {
+  margin-top: 20px;
+  background-color: rgba(208, 224, 239, 0.436);
+}
+.sidebar {
+  background-color: #333;
+  color: white;
+  height: 100%;
+}
+.sidebar a {
+  margin-left: 10px;
+  display: block;
+  color: white;
+  padding-bottom: 10px;
+  font-size: 30px;
+  text-decoration: none;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-body {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  background-color: rgba(150, 223, 255, 0.611);
+  margin-top: 5px;
+}
+.col-md-4 {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.col-md-8 {
+  display: block;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.para {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+
+.head {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
